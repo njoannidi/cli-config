@@ -44,4 +44,7 @@ ln -s ~/.vim/bundle/vim-colorschemes/colors/ ~/.vim/colors
 # Run your new Bash RC
 source ~/.bashrc
 
+# Set Git Default Editor
+git config --global core.editor vim
+
 # All done!
